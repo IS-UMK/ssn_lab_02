@@ -1,0 +1,4 @@
+name: snn-environment
+dependencies:
+  - rise
+  - numpy
