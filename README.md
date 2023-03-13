@@ -17,13 +17,15 @@ Zaimplementuj perceptron klasyfikujący (2 klasy) wraz z procedurą uczenia za p
 $$
 \Delta w_i=\lambda(y-f(\mathbf{x})) f^{\prime}(\mathbf{x}) x_i
 $$
+
 $$
 \Delta b=\lambda(y-f(\mathbf{x})) f^{\prime}(\mathbf{x})
 $$
 
 Wykorzystaj sigmoidalną funkcję aktywacji 
+
 $$
-f(x)=\frac{1}{1+e^{-x}} \quad f^{\prime}(x)=f(x)(1-f(x))
+f(x)=\frac{1}{1+e^{-x}}, \qquad f^{\prime}(x)=f(x)(1-f(x))
 $$
 
 Zauważ, że funkcja sigmoidalna $f(x)$ posiada wartości z zakresu $(0,1)$ dlatego etykiety klas należy zakodować wartościami binarnymi $\{0,1\}$.
